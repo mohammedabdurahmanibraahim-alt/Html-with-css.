@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selectors</title>
+    <style>
+
+       /* element name selector */
+       body{
+        background-color: gray;
+       }
+
+        /* class selector */
+        .paragraph-1 {
+            font-size: larger;
+            font-weight: bolder;
+            background-color: white;
+        }
+      /* id selector */
+      #idselector {
+        color: rgb(89, 0, 255);
+        font-weight: bold;
+        font-size: 40px;
+      }
+
+      /* attribute selector */
+      input{
+        background-color: black;
+        border: 2px solid rgb(76, 0, 255); 
+        
+      }
+
+      /* descendent selector */
+      div ul li{
+        color: blue;
+        font-size: 20px;
+        font-style: italic;
+      }
+
+      /* child selector */
+      div >ul >li{
+        color: red;
+      }
+      /* universal selector */
+      *{
+        font-family: algerian;
+      }
+    
+      </style>
+    
+</head>
+<body>
+    
+    <h1>CSS SELECTORS</h1>
+    <P class="paragraph-1">THIS IS Paragraph styled using class selector</P>
+    <p id="idselector">  this is Paragraph styled using id selector</p>
+    <input type="text" placeholder="Name">
+    <input type="password" placeholder="password">
+    <div>
+        <p>paragraph within the div</p>
+        <ul>
+            <li>item 1</li>
+            <li>item 2</li>
+        </ul>
+    </div>
+</body>
+</html>

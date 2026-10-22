@@ -1,0 +1,14 @@
+.container {
+            /* background-color: silver; */
+            height: 350px;
+            display: flex;
+            /* flex-direction:  row;   */ 
+            flex-direction: column;
+            
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        .item {
+            background-color: coral;
+            min-width: 200px;
+        }

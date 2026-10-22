@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations</title>
+    <style>
+        .box{
+            background-color: brown;
+            width: 100px;
+            height: 100px;
+            margin: 100px auto;
+            animation-name: animation-2;
+            animation-duration: 5s;
+            /* animation-delay: 2s; */
+            /* animation-direction: normal; */
+            /* animation-direction: reverse; */
+            animation-iteration-count: infinite;
+        }
+        @keyframes animation-1{
+            0%{
+                scale: 1;
+            }
+            100%{
+                scale: 2;
+                border-radius: 100%;
+                background-color: coral;
+            }
+        }
+        @keyframes animation-2{
+            from{
+                background-color: red;
+                width: 100px;
+                scale: 3;
+            }
+            to{
+                background-color: brown;
+                scale: 1;
+
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Animations</h1>
+    <div class="box">
+
+    </div>
+</body>
+</html>
